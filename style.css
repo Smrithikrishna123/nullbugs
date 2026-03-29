@@ -404,13 +404,33 @@ a {
   text-decoration: none;
 }
 
-.navbar a.active {
-  color: #FF6B6B;
-  font-weight: bold;
-  border-bottom: 3px solid #FF6B6B;
-  padding-bottom: 5px;
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  position: relative;
+  padding: 5px 0;
 }
 
-.navbar a:hover {
+/* ACTIVE LINK */
+.navbar a.active {
   color: #FF6B6B;
+}
+
+/* UNDERLINE EFFECT */
+.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 3px;
+  background: #FF6B6B;
+  transition: 0.3s;
+}
+
+/* SHOW LINE ON HOVER + ACTIVE */
+.navbar a:hover::after,
+.navbar a.active::after {
+  width: 100%;
 }
