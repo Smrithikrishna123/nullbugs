@@ -11,29 +11,29 @@ The goal of this project is to improve design, user experience, and performance 
 
 **Key pages included:**
 
-Modern and responsive homepage
-Detailed About Us section
-Services page showcasing offerings
-Pricing page with clear plans and call-to-action
+-Modern and responsive homepage
+-Detailed About Us section
+-Services page showcasing offerings
+-Pricing page with clear plans and call-to-action
 
 ---
 
 ## Features
 
-Fully responsive design (mobile-friendly)
-Clean and modern UI/UX
-Easy navigation across pages
-WhatsApp integration for direct contact
-Structured and reusable code
+-Fully responsive design (mobile-friendly)
+-Clean and modern UI/UX
+-Easy navigation across pages
+-WhatsApp integration for direct contact
+-Structured and reusable code
 
 ---
 
 ## Technologies Used
 
-HTML5
-CSS3
-Flexbox for layout
-Font Awesome for icons
+-HTML5
+-CSS3
+-Flexbox for layout
+-Font Awesome for icons
 
 ---
 
