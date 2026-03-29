@@ -404,4 +404,10 @@ a {
   text-decoration: none;
 }
 
+.navbar a.active {
+  color: #FF6B6B;
+  font-weight: bold;
+  border-bottom: 3px solid #FF6B6B;
+  padding-bottom: 5px;
+}
 
