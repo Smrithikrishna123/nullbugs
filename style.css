@@ -372,6 +372,22 @@
   }
 }
 
+
+  .about-details {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.detail {
+  margin-bottom: 30px;
+}
+
+.detail h3 {
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+
  
 
 
