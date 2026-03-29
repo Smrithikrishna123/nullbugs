@@ -411,3 +411,6 @@ a {
   padding-bottom: 5px;
 }
 
+.navbar a:hover {
+  color: #FF6B6B;
+}
