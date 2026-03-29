@@ -39,7 +39,7 @@ The goal of this project is to improve design, user experience, and performance 
 
 ## Installation / How to Run
 
-1.Download or clone the repository:git clone:https://smrithikrishna123.github.io/nullbugs/
+1.Download or clone the repository:git clone:https://github.com/Smrithikrishna123/nullbugs.git
 2.Open index.html in your browser.
 3.Navigate through pages using the navbar or footer links.
 
