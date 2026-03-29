@@ -17,6 +17,11 @@
 .logo {
   color: #4f46e5;
 }
+.logo-img {
+  height: 50px;       /* adjust size */
+  width: auto;
+  vertical-align: middle;
+}
 
 .navbar ul {
   display: flex;
