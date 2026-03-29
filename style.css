@@ -120,6 +120,7 @@
   }
 }
 
+/*about page
 /* HERO for About page */
 .about-section {
   background: linear-gradient(to right, #7c3aed, #4f46e5);
@@ -174,3 +175,145 @@
     align-items: center;
   }
 }
+/*service page
+
+/* HERO / HEADER */
+.services-hero {
+  width: 100%;
+  background: linear-gradient(to right, #7c3aed, #4f46e5);
+  color: white;
+  padding: 80px 20px;
+}
+
+.services-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.services-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.services-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* SERVICES CARDS */
+.services-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px 20px;
+}
+
+.service-card {
+  background: #f3f4f6;
+  padding: 30px;
+  width: 280px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-card h2 {
+  color: #4f46e5;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #1f2937;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .services-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/*pricing
+/* HERO / HEADER */
+.pricing-hero {
+  width: 100%;
+  background: linear-gradient(to right, #7c3aed, #4f46e5);
+  color: white;
+  padding: 80px 20px;
+}
+
+.pricing-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pricing-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.pricing-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* PRICING CARDS */
+.pricing-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px 20px;
+}
+
+.pricing-card {
+  background: #f3f4f6;
+  padding: 30px;
+  width: 280px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+}
+
+.pricing-card h2 {
+  color: #4f46e5;
+  margin-bottom: 15px;
+}
+
+.pricing-card .price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.pricing-card ul li {
+  margin: 8px 0;
+}
+
+.pricing-card button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding
+
+ 
+
+
