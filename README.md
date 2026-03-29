@@ -9,8 +9,6 @@ A redesigned and rebuilt version of the Null Bugs company website, created as pa
 
 The goal of this project is to improve design, user experience, and performance of the website while maintaining a clean and professional structure.
 
----
-
 **Key pages included:**
 
 Modern and responsive homepage
