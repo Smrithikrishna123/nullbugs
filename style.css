@@ -549,14 +549,11 @@ color:#b3ffb3;
 .ad-slider {
   position: relative;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 12px;
-
-  /* For mobile-safe 16:9 aspect ratio */
-  height: 0;
-  padding-top: 56.25%; /* 9/16 = 0.5625 = 56.25% */
+  aspect-ratio: 1280 / 714
 }
 
 .ad-slide {
@@ -578,7 +575,7 @@ color:#b3ffb3;
   height: 100%;
   object-fit: cover;
   display: block;
-  border-radius: 12px;
+  
 }
 
 .ad-text {
