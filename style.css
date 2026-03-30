@@ -638,14 +638,31 @@ html, body {
   margin-bottom: 10px;
 }
 
-.about-image {
-  display: flex;            /* make the div a flex container */
-  justify-content: center;  /* center the image horizontally */
-  width: 100%;
+.about-preview {
+  text-align: center;   /* centers the heading & paragraph */
+  padding: 60px 20px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;   /* stack text and image vertically */
+  align-items: center;      /* center horizontally */
+  gap: 30px;                /* space between text and image */
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 1.2rem;
+  max-width: 700px;        /* keeps paragraph readable */
 }
 
 .about-image img {
+  width: 100%;
   max-width: 600px;         /* control image size */
-  width: 100%;              /* responsive */
   border-radius: 12px;
+  margin-top: 20px;
 }
