@@ -88,13 +88,15 @@ body {
 }
 
 .card {
-   background:#d9d9d9;
-
+  background: white;
   padding: 30px;
   width: 250px;
-  border-radius: 10px;
+  border-radius: 12px;
+  border-top: 4px solid #4dff4d;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   transition: 0.3s;
 }
+
 
 .card:hover {
   transform: translateY(-10px);
@@ -175,7 +177,7 @@ body {
 .about-box h2 {
   
 
-color:#b3ffb3;
+color:#111;
   margin-bottom: 15px;
 }
 
@@ -248,7 +250,7 @@ color:#b3ffb3;
 .service-card h2 {
 
 
-color:#b3ffb3;
+color:#111;
   margin-bottom: 15px;
 }
 
@@ -336,15 +338,18 @@ color:#111;
 }
 
 .pricing-card button {
-   background:#b3ffb3;
-
-
-  color: #111 ;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
+  background: #111;
+  color: #b3ffb3;
+  font-weight: 600;
+  transition: 0.3s;
 }
+
+.pricing-card button:hover {
+  background: #4dff4d;
+  color: #111;
+  transform: scale(1.05);
+}
+
 
 
   .footer {
@@ -411,7 +416,7 @@ color:#111;
 }
 
 .detail h3 {
- background:#b3ffb3;
+ background:#111;
 
 
   margin-bottom: 10px;
