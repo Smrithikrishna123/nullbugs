@@ -594,49 +594,45 @@ html, body {
   height: auto;
 }
 
+/* 1. The Wrapper for the image and comments */
 .fake-info {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   align-items: center;
-  text-align: center;
-  gap: 40px;
   padding: 60px 20px;
-  background: #f9f9f9;
 }
 
-.info-image img {
-  max-width: 800px;
-  width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-}
-
-/* COMMENTS */
+/* 2. The Slider Area */
 .comments-section {
-  width: 100%;             /* Use the full width of the screen */
-  padding: 60px 0;         /* Give some space above and below */
-  text-align: center;
-  background: #f9f9f9;
-}
-
-.comment-container {
   position: relative;
-  max-width: 900px;        /* Limits the sentence length for readability */
-  margin: 0 auto;          /* Centers the container */
-  height: 200px;           /* Gives enough room for the fade effect */
+  width: 100%;
+  max-width: 800px;  /* Limits width so sentences look good */
+  height: 180px;      /* CRITICAL: This pushes the footer down */
+  margin-top: 20px;
+  text-align: center;
 }
 
+/* 3. The Individual Comment */
 .comment {
   position: absolute;
   top: 0;
-  left: 0;                 /* Anchors to the left edge of container */
-  right: 0;                /* Anchors to the right edge */
-  width: 100%;             /* Forces the box to be wide, not narrow */
+  left: 0;
+  right: 0;          /* Anchors text to both sides to prevent squishing */
+  width: 100%;
   opacity: 0;
-  transition: opacity 1s ease;
-  padding: 0 20px;         /* Keeps text away from screen edges on mobile */
+  transition: opacity 1s ease-in-out;
 }
 
+.comment.active {
+  opacity: 1;
+}
+
+.comment p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-style: italic;
+  color: #333;
+}
 .comment.active {
   opacity: 1;
 }
