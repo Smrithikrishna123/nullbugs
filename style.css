@@ -553,8 +553,10 @@ color:#b3ffb3;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+
+  height: 400px; /* <-- Set a specific height */
 }
+
 
 .ad-slide {
   position: absolute;
@@ -600,4 +602,9 @@ color:#b3ffb3;
   .ad-text p {
     font-size: 0.9rem;
   }
+}
+html, body {
+  overflow-x: hidden; /* stops horizontal scroll */
+  overflow-y: auto;   /* allows vertical scroll */
+  height: auto;
 }
