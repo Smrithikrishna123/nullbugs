@@ -67,6 +67,35 @@
   </div>
 </section>
 
+<section class="fake-info">
+  <!-- Fake Info Image -->
+  <div class="info-image">
+    <img src="fake-info.jpg" alt="Fake Info Image">
+  </div>
+
+  <!-- Testimonials / Comments -->
+  <div class="comments-section">
+    <div class="comment active">
+      <div class="stars">★★★★★</div>
+      <p>"Null Bugs really helped us grow our online presence!"</p>
+    </div>
+    <div class="comment">
+      <div class="stars">★★★★★</div>
+      <p>"Amazing service and quick delivery. Highly recommended!"</p>
+    </div>
+    <div class="comment">
+      <div class="stars">★★★★★</div>
+      <p>"The team is professional and creative. Loved the website design!"</p>
+    </div>
+    <div class="comment">
+      <div class="stars">★★★★★</div>
+      <p>"Great communication and support. Our business improved a lot!"</p>
+    </div>
+  </div>
+</section>
+
+
+  
 <!-- FOOTER -->
 <footer class="footer">
   <div class="footer-container">
@@ -110,6 +139,19 @@ setInterval(() => {
   if(currentIndex >= ads.length) currentIndex = 0;
 }, 4000); // Change every 4 seconds
 </script>
+  <script>
+let comments = document.querySelectorAll('.comment');
+let current = 0;
+
+setInterval(() => {
+  comments.forEach(c => c.classList.remove('active'));
+  comments[current].classList.add('active');
+
+  current++;
+  if(current >= comments.length) current = 0;
+}, 4000); // change comment every 4 seconds
+</script>
+
 
 </body>
 </html>
