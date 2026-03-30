@@ -11,29 +11,32 @@ The goal of this project is to improve design, user experience, and performance 
 
 **Key pages included:**
 
--Modern and responsive homepage
--Detailed About Us section
--Services page showcasing offerings
--Pricing page with clear plans and call-to-action
+-Modern and responsive **homepage**
+-Detailed **About Us** section
+-**Services** page showcasing offerings
+- **Pricing** page with clear plans and call-to-action
 
 ---
 
 ## Features
 
--Fully responsive design (mobile-friendly)
--Clean and modern UI/UX
--Easy navigation across pages
--WhatsApp integration for direct contact
--Structured and reusable code
+- Responsive design for desktop, tablet, and mobile
+- Home page with hero section, ad slider, and fake testimonial comments
+- About page with team info, mission, vision, and values
+- Services page with service cards and FAQ section
+- Pricing page with subscription plans, banners, and "Most Popular" badge
+- Footer with social links and contact info
+- Smooth CSS transitions and hover effects
 
 ---
 
 ## Technologies Used
 
 -HTML5
--CSS3
--Flexbox for layout
--Font Awesome for icons
+-CSS3 (Flexbox, Grid, Responsive Design)
+-JavaScript (for slider and comment transitions)
+- Google Fonts (Poppins)
+- Font Awesome icons
 
 ---
 
