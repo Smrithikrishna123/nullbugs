@@ -625,6 +625,12 @@ html, body {
   transition: opacity 1s ease;
   font-size: 1.2rem;
   color: #111;
+
+  white-space: nowrap;        /* Prevent line breaks */
+  overflow: hidden;           /* Hide overflow */
+  text-overflow: ellipsis;    /* Show ... if too long */
+  left: 50%;                  /* Center horizontally */
+  transform: translateX(-50%);
 }
 
 .comment.active {
