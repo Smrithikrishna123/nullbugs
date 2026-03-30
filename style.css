@@ -614,19 +614,24 @@ html, body {
 /* COMMENTS */
 .comments-section {
   max-width: 700px;
+  margin: 40px auto; /* Centers the whole section on the page */
   position: relative;
-  height: 200px; /* enough space for stars + text */
+  height: 250px; /* Increased slightly to prevent overlap */
+  text-align: center;
 }
 
 .comment {
   position: absolute;
-  width: 100%;
+  top: 0;
+  left: 0;         /* Crucial: anchors the text to the left */
+  width: 100%;      /* Crucial: forces the text to use the full 700px width */
   opacity: 0;
   transition: opacity 1s ease;
   font-size: 1.2rem;
+  line-height: 1.6; /* Adds space between lines for better reading */
   color: #111;
+  padding: 0 20px;  /* Prevents text from touching the edges on mobile */
 }
-
 
 .comment.active {
   opacity: 1;
