@@ -521,30 +521,29 @@ color:#b3ffb3;
 
 .about-container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 30px;
-  flex-wrap: wrap;
-}
-
-.about-text {
-  flex: 1;
+  flex-direction: column; /* stack text and image vertically */
+  align-items: center;    /* center horizontally */
+  text-align: center;     /* center text */
+  gap: 30px;              /* space between text and image */
 }
 
 .about-text h2 {
-  margin-bottom: 15px;
+  font-size: 3rem; /* big heading */
+  margin-bottom: 20px;
+  color: #111;
 }
 
-.about-image {
-  flex: 1;
-  text-align: center;
+.about-text p {
+  font-size: 1.2rem; /* bigger paragraph */
+  max-width: 800px;  /* optional: limit width */
 }
 
 .about-image img {
   width: 100%;
-  max-width: 400px;
+  max-width: 600px; /* image size limit */
   border-radius: 12px;
 }
+
 
 .ad-slider {
   position: relative;
