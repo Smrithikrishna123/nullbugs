@@ -43,7 +43,7 @@
   justify-content: center;
   background: linear-gradient(to right, #80ff80, #4dff4d);
 
-  color: white;
+  color: #111;
   text-align: center;
   padding: 20px;
 }
@@ -56,17 +56,17 @@
   margin-top: 10px;
   font-size: 18px;
 }
-
 .hero button {
-  margin-top: 20px;
-  padding: 12px 25px;
-  border: none;
-  background: white;
+  background: #111;
+  color: #80ff80;
+  font-weight: 600;
+  transition: 0.3s;
+}
 
-color:#80ff80;
-
-
-  border-radius: 5px;
+.hero button:hover {
+  background: #80ff80;
+  color: #111;
+  transform: scale(1.05);
 }
 
 /* SERVICES */
@@ -140,7 +140,7 @@ color:#80ff80;
 .about-section {
  background: linear-gradient(to right, #80ff80, #4dff4d);
 
-  color: white;
+  color: #111;
   text-align: center;
   padding: 80px 20px;
 }
@@ -200,7 +200,7 @@ color:#80ff80;
   width: 100%;
  background: linear-gradient(to right, #80ff80, #4dff4d);
 
-  color: white;
+ color: #111;
   padding: 80px 20px;
 }
 
@@ -268,7 +268,7 @@ color:#80ff80;
  background: linear-gradient(to right, #80ff80, #4dff4d);
 
 
-  color: white;
+  color: #111;
   padding: 80px 20px;
 }
 
