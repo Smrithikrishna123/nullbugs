@@ -125,37 +125,7 @@ Ernakulam, Kerala - 682025</p>
 
 </footer>
 
-<div class="slider">
-  <div class="slide active">
-    <h1>We Build Modern Websites</h1>
-    <p>Helping businesses grow online</p>
-  </div>
 
-  <div class="slide">
-    <h1>We Create Mobile Apps</h1>
-    <p>Android & iOS solutions</p>
-  </div>
-
-  <div class="slide">
-    <h1>Your Digital Growth Partner</h1>
-    <p>From idea to execution</p>
-  </div>
-</div>
-<script>
-  let slides = document.querySelectorAll(".slide");
-  let index = 0;
-
-  setInterval(() => {
-    slides.forEach(slide => slide.classList.remove("active"));
-
-    slides[index].classList.add("active");
-
-    index++;
-    if (index >= slides.length) {
-      index = 0;
-    }
-  }, 3000);
-</script>
 
 </body>
 </html>
