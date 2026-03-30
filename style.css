@@ -740,3 +740,42 @@ html, body {
   color: #111;
   line-height: 1.6;
 }
+
+
+.pricing-banner {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.pricing-banner img {
+  width: 100%;
+  height: auto; /* keeps image aspect ratio */
+  display: block;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); /* optional dark overlay */
+  border-radius: 10px;
+}
+
+.banner-overlay h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.banner-overlay p {
+  font-size: 1.2rem;
+}
+
