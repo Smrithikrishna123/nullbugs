@@ -615,7 +615,7 @@ html, body {
 .comments-section {
   max-width: 700px;
   position: relative;
-  height: 100px; /* enough space for stars + text */
+  height: 200px; /* enough space for stars + text */
 }
 
 .comment {
@@ -625,13 +625,8 @@ html, body {
   transition: opacity 1s ease;
   font-size: 1.2rem;
   color: #111;
-
-  white-space: nowrap;        /* Prevent line breaks */
-  overflow: hidden;           /* Hide overflow */
-  text-overflow: ellipsis;    /* Show ... if too long */
-  left: 50%;                  /* Center horizontally */
-  transform: translateX(-50%);
 }
+
 
 .comment.active {
   opacity: 1;
