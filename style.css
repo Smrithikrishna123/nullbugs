@@ -743,39 +743,41 @@ html, body {
 
 
 .pricing-banner {
-  position: relative;
   width: 100%;
   max-width: 1200px;
   margin: 40px auto;
   text-align: center;
-  border-radius: 12px;
-  overflow: hidden;
 }
 
 .pricing-banner img {
   width: 100%;
-  height: auto; /* keeps image aspect ratio */
+  height: auto;   /* keeps aspect ratio */
   display: block;
+  border-radius: 12px;
 }
 
-.banner-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+.banner-text {
+  margin-top: 20px;  /* space between image and text */
+  color: #111;       /* text color */
   text-align: center;
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.5); /* optional dark overlay */
-  border-radius: 10px;
 }
 
-.banner-overlay h2 {
+.banner-text h2 {
   font-size: 2rem;
   margin-bottom: 10px;
 }
 
-.banner-overlay p {
+.banner-text p {
   font-size: 1.2rem;
 }
+
+
+.responsive-img {
+  width: 100%;       /* image takes full width of container */
+  max-width: 1200px; /* optional, keeps image from being too large on big screens */
+  height: auto;      /* maintains aspect ratio */
+  display: block;    /* removes unwanted inline spacing */
+  margin: 0 auto;    /* centers image horizontally */
+}
+
 
