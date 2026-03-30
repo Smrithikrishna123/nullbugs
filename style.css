@@ -700,3 +700,47 @@ html, body {
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
+.faq-section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.faq-section h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #111;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+  text-align: left;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.faq-question {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background: #b3ffb3;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.faq-question:hover {
+  background: #4dff4d;
+}
+
+.faq-answer {
+  display: none; /* hide by default */
+  padding: 15px 20px;
+  background: #f9f9f9;
+  color: #111;
+  line-height: 1.6;
+}
