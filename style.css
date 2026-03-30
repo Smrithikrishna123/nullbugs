@@ -41,7 +41,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, #80ff80, #4dff4d);
+  background: linear-gradient(to right, #b3ffb3, #4dff4d);
 
   color: #111;
   text-align: center;
@@ -84,8 +84,7 @@
 }
 
 .card {
-   background: #80ff80;
-
+   background: white;
 
   padding: 30px;
   width: 250px;
@@ -109,7 +108,7 @@
   margin-top: 20px;
   padding: 12px 25px;
   
- background: #80ff80;
+ background: #b3ffb3;
 
 
 
@@ -138,7 +137,7 @@
 /*about page
 /* HERO for About page */
 .about-section {
- background: linear-gradient(to right, #80ff80, #4dff4d);
+ background: linear-gradient(to right,#b3ffb3, #4dff4d);
 
   color: #111;
   text-align: center;
@@ -172,7 +171,7 @@
 .about-box h2 {
   
 
-color:#80ff80;
+color:#b3ffb3;
   margin-bottom: 15px;
 }
 
@@ -198,7 +197,7 @@ color:#80ff80;
 /* HERO / HEADER */
 .services-hero {
   width: 100%;
- background: linear-gradient(to right, #80ff80, #4dff4d);
+ background: linear-gradient(to right,#b3ffb3, #4dff4d);
 
  color: #111;
   padding: 80px 20px;
@@ -245,7 +244,7 @@ color:#80ff80;
 .service-card h2 {
 
 
-color:#80ff80;
+color:#b3ffb3;
   margin-bottom: 15px;
 }
 
@@ -265,7 +264,7 @@ color:#80ff80;
 /* HERO / HEADER */
 .pricing-hero {
   width: 100%;
- background: linear-gradient(to right, #80ff80, #4dff4d);
+ background: linear-gradient(to right, #b3ffb3, #4dff4d);
 
 
   color: #111;
@@ -333,7 +332,7 @@ color:#80ff80;
 }
 
 .pricing-card button {
-   background: #80ff80;
+   background:#b3ffb3;
 
 
   color: white;
@@ -408,7 +407,7 @@ color:#80ff80;
 }
 
 .detail h3 {
- background: #80ff80;
+ background:#b3ffb3;
 
 
   margin-bottom: 10px;
@@ -431,7 +430,7 @@ a {
 .navbar a.active {
    
 
-color:#80ff80;
+color:#b3ffb3;
 }
 
 /* UNDERLINE EFFECT */
@@ -442,7 +441,7 @@ color:#80ff80;
   bottom: -5px;
   width: 0%;
   height: 3px;
-  background: #80ff80;
+  background: #b3ffb3;
 
 
   transition: 0.3s;
