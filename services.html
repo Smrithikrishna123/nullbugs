@@ -90,6 +90,31 @@
   </div>
 
 </section>
+<section class="faq-section">
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <button class="faq-question">What services do you offer?</button>
+    <div class="faq-answer">
+      <p>We offer web development, mobile app development, and custom software solutions tailored to your business needs.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">How long does a project take?</button>
+    <div class="faq-answer">
+      <p>The duration depends on the project size and complexity. Small projects usually take 2-4 weeks, while larger ones may take several months.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Do you provide support after delivery?</button>
+    <div class="faq-answer">
+      <p>Yes, we offer post-delivery support and maintenance packages to ensure your solution runs smoothly.</p>
+    </div>
+  </div>
+
+</section>
 
 <!-- FOOTER -->
 <footer class="footer">
@@ -133,6 +158,16 @@ Ernakulam, Kerala - 682025</p>
   <p class="footer-bottom">© 2026 Null Bugs. All rights reserved.</p>
 
 </footer>
+<script>
+const faqButtons = document.querySelectorAll(".faq-question");
+
+faqButtons.forEach(btn => {
+  btn.addEventListener("click", () => {
+    const answer = btn.nextElementSibling;
+    answer.style.display = answer.style.display === "block" ? "none" : "block";
+  });
+});
+</script>
 
 </body>
 </html>
