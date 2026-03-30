@@ -638,3 +638,14 @@ html, body {
   margin-bottom: 10px;
 }
 
+.about-image {
+  display: flex;            /* make the div a flex container */
+  justify-content: center;  /* center the image horizontally */
+  width: 100%;
+}
+
+.about-image img {
+  max-width: 600px;         /* control image size */
+  width: 100%;              /* responsive */
+  border-radius: 12px;
+}
