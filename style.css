@@ -494,3 +494,21 @@ color:#b3ffb3;
   opacity: 1;
   transform: translateY(0);
 }
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  margin-top: 10px;   /* pushes button down */
+}
