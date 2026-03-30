@@ -41,7 +41,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, #FF6B6B, #ff8a8a);
+  background: linear-gradient(to right, #80ff80, #4dff4d);
 
   color: white;
   text-align: center;
@@ -62,7 +62,8 @@
   padding: 12px 25px;
   border: none;
   background: white;
-  color: #FF6B6B;
+
+color:#80ff80;
 
 
   border-radius: 5px;
@@ -83,7 +84,9 @@
 }
 
 .card {
-  background: #f3f4f6;
+   background: #80ff80;
+
+
   padding: 30px;
   width: 250px;
   border-radius: 10px;
@@ -106,7 +109,9 @@
   margin-top: 20px;
   padding: 12px 25px;
   
-background: #FF6B6B;
+ background: #80ff80;
+
+
 
   border: none;
   color: white;
@@ -133,7 +138,7 @@ background: #FF6B6B;
 /*about page
 /* HERO for About page */
 .about-section {
- background: linear-gradient(to right, #FF6B6B, #ff8a8a);
+ background: linear-gradient(to right, #80ff80, #4dff4d);
 
   color: white;
   text-align: center;
@@ -165,7 +170,9 @@ background: #FF6B6B;
 }
 
 .about-box h2 {
-  color: #4f46e5;
+  
+
+color:#80ff80;
   margin-bottom: 15px;
 }
 
@@ -191,7 +198,7 @@ background: #FF6B6B;
 /* HERO / HEADER */
 .services-hero {
   width: 100%;
-  background: linear-gradient(to right, #FF6B6B, #ff8a8a);
+ background: linear-gradient(to right, #80ff80, #4dff4d);
 
   color: white;
   padding: 80px 20px;
@@ -236,7 +243,9 @@ background: #FF6B6B;
 }
 
 .service-card h2 {
- color: #FF6B6B;
+
+
+color:#80ff80;
   margin-bottom: 15px;
 }
 
@@ -256,7 +265,8 @@ background: #FF6B6B;
 /* HERO / HEADER */
 .pricing-hero {
   width: 100%;
- background: linear-gradient(to right, #FF6B6B, #ff8a8a);
+ background: linear-gradient(to right, #80ff80, #4dff4d);
+
 
   color: white;
   padding: 80px 20px;
@@ -301,7 +311,8 @@ background: #FF6B6B;
 }
 
 .pricing-card h2 {
-  color: #FF6B6B;
+  
+color:#80ff80;
   margin-bottom: 15px;
 }
 
@@ -322,7 +333,9 @@ background: #FF6B6B;
 }
 
 .pricing-card button {
-  background: #FF6B6B;
+   background: #80ff80;
+
+
   color: white;
   border: none;
   padding: 10px 20px;
@@ -395,7 +408,9 @@ background: #FF6B6B;
 }
 
 .detail h3 {
-color: #FF6B6B;
+ background: #80ff80;
+
+
   margin-bottom: 10px;
 }
 
@@ -414,7 +429,9 @@ a {
 
 /* ACTIVE LINK */
 .navbar a.active {
-  color: #FF6B6B;
+   
+
+color:#80ff80;
 }
 
 /* UNDERLINE EFFECT */
@@ -425,7 +442,9 @@ a {
   bottom: -5px;
   width: 0%;
   height: 3px;
-  background: #FF6B6B;
+  background: #80ff80;
+
+
   transition: 0.3s;
 }
 
