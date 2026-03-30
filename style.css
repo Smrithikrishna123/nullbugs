@@ -87,20 +87,6 @@ body {
   flex-wrap: wrap;
 }
 
-.card {
-  background: white;
-  padding: 30px;
-  width: 250px;
-  border-radius: 12px;
-  border-top: 4px solid #4dff4d;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  transition: 0.3s;
-}
-
-
-.card:hover {
-  transform: translateY(-10px);
-}
 
 /* CTA */
 .cta {
@@ -163,16 +149,19 @@ body {
 }
 
 .about-box {
-  background: #f3f4f6;
+  background: white;
   padding: 30px;
-  width: 280px;
-  border-radius: 10px;
-  transition: transform 0.3s;
+  width: 250px;
+  border-radius: 12px;
+  border-top: 4px solid #4dff4d;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
 }
 
 .about-box:hover {
   transform: translateY(-10px);
 }
+
 
 .about-box h2 {
   
@@ -235,17 +224,20 @@ color:#111;
 }
 
 .service-card {
-  background: #f3f4f6;
+  background: white;
   padding: 30px;
   width: 280px;
-  border-radius: 10px;
+  border-radius: 12px;
+  border-top: 4px solid #4dff4d;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   text-align: center;
-  transition: transform 0.3s;
+  transition: 0.3s;
 }
 
 .service-card:hover {
   transform: translateY(-10px);
 }
+
 
 .service-card h2 {
 
@@ -303,17 +295,20 @@ color:#111;
 }
 
 .pricing-card {
-  background: #f3f4f6;
+  background: white;
   padding: 30px;
   width: 280px;
-  border-radius: 10px;
+  border-radius: 12px;
+  border-top: 4px solid #4dff4d;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   text-align: center;
-  transition: transform 0.3s;
+  transition: 0.3s;
 }
 
 .pricing-card:hover {
   transform: translateY(-10px);
 }
+
 
 .pricing-card h2 {
   
